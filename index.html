@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0f1a">
+  <title>Home · Football Hub</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./assets/styles.css">
+  <meta name="description" content="Football Hub: fixtures, tables, teams, and news.">
+</head>
+<body data-page="home">
+  <nav>
+    <div class="nav-inner container">
+      <a class="brand" href="./index.html" aria-label="Football Hub Home">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" fill="#11c37f" opacity=".15"/>
+          <path d="M12 30h40v4H12z" fill="#11c37f"/>
+          <path d="M32 12a20 20 0 100 40 20 20 0 000-40zm0 6a14 14 0 110 28 14 14 0 010-28z" fill="#4d79ff" opacity=".7"/>
+        </svg>
+        <span>Football Hub</span>
+      </a>
+      <div class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./fixtures.html">Fixtures</a>
+        <a href="./teams.html">Teams</a>
+        <a href="./about.html">About</a>
+        <a class="btn btn-outline" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div>
+        <h1 style="margin:0 0 10px 0; font-size:2.2rem; line-height:1.2">All things football, one fast site.</h1>
+        <p style="color:var(--muted); margin:0 0 18px 0">
+          Live fixtures, league table snapshots, top scorers, and curated news — clean and responsive.
+        </p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap">
+          <a class="btn" href="./fixtures.html">See Fixtures</a>
+          <a class="btn btn-outline" href="./teams.html">Explore Teams</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h3>Today at a glance</h3>
+          <span class="badge">Auto-updating demo</span>
+        </div>
+        <div class="card-body grid grid-2">
+          <div class="kpi">
+            <div class="num" id="kpiMatches">—</div>
+            <div><div>Matches</div><small>Scheduled</small></div>
+          </div>
+          <div class="kpi">
+            <div class="num" id="kpiGoals">—</div>
+            <div><div>Avg Goals</div><small>Per match</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container grid grid-3" style="margin-top:24px">
+    <section class="card">
+      <div class="card-header">
+        <h3>League Table (Demo)</h3>
+        <a class="btn btn-outline" href="./teams.html">Full table</a>
+      </div>
+      <div class="card-body">
+        <table class="table" id="tableLeague">
+          <thead><tr><th>#</th><th>Team</th><th>Pts</th><th>GD</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h3>Upcoming Fixtures</h3>
+        <a class="btn btn-outline" href="./fixtures.html">All fixtures</a>
+      </div>
+      <div class="card-body">
+        <div id="fixtureList" class="grid" style="gap:12px"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header"><h3>Top Scorers</h3></div>
+      <div class="card-body">
+        <table class="table" id="tableScorers">
+          <thead><tr><th>Player</th><th>Team</th><th>Goals</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Made with ❤ for the beautiful game. Host on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+  </footer>
+  <script src="./assets/script.js" defer></script>
+</body>
+</html>

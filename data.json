@@ -1,0 +1,98 @@
+{
+  "league": [
+    {
+      "team": "Ajax City",
+      "played": 12,
+      "w": 8,
+      "d": 2,
+      "l": 2,
+      "gd": 12,
+      "pts": 26
+    },
+    {
+      "team": "Boreham United",
+      "played": 12,
+      "w": 7,
+      "d": 4,
+      "l": 1,
+      "gd": 9,
+      "pts": 25
+    },
+    {
+      "team": "Cobalt FC",
+      "played": 12,
+      "w": 7,
+      "d": 3,
+      "l": 2,
+      "gd": 11,
+      "pts": 24
+    },
+    {
+      "team": "Dynamo Ridge",
+      "played": 12,
+      "w": 6,
+      "d": 3,
+      "l": 3,
+      "gd": 7,
+      "pts": 21
+    },
+    {
+      "team": "Estrella Rovers",
+      "played": 12,
+      "w": 5,
+      "d": 3,
+      "l": 4,
+      "gd": 4,
+      "pts": 18
+    }
+  ],
+  "fixtures": [
+    {
+      "date": "2025-08-18",
+      "competition": "Premier",
+      "home": "Ajax City",
+      "away": "Cobalt FC",
+      "time": "18:30"
+    },
+    {
+      "date": "2025-08-19",
+      "competition": "Premier",
+      "home": "Boreham United",
+      "away": "Dynamo Ridge",
+      "time": "19:00"
+    },
+    {
+      "date": "2025-08-21",
+      "competition": "Cup",
+      "home": "Estrella Rovers",
+      "away": "Ajax City",
+      "time": "20:00"
+    }
+  ],
+  "scorers": [
+    {
+      "player": "Leon Vega",
+      "team": "Ajax City",
+      "goals": 12
+    },
+    {
+      "player": "Kai Bolton",
+      "team": "Cobalt FC",
+      "goals": 11
+    },
+    {
+      "player": "M. Okoye",
+      "team": "Boreham United",
+      "goals": 9
+    },
+    {
+      "player": "R. Petrov",
+      "team": "Dynamo Ridge",
+      "goals": 8
+    }
+  ],
+  "stats": {
+    "matches": 32,
+    "avgGoals": 2.7
+  }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0f1a">
+  <title>Fixtures · Football Hub</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./assets/styles.css">
+  <meta name="description" content="Football Hub: fixtures, tables, teams, and news.">
+</head>
+<body data-page="fixtures">
+  <nav>
+    <div class="nav-inner container">
+      <a class="brand" href="./index.html" aria-label="Football Hub Home">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" fill="#11c37f" opacity=".15"/>
+          <path d="M12 30h40v4H12z" fill="#11c37f"/>
+          <path d="M32 12a20 20 0 100 40 20 20 0 000-40zm0 6a14 14 0 110 28 14 14 0 010-28z" fill="#4d79ff" opacity=".7"/>
+        </svg>
+        <span>Football Hub</span>
+      </a>
+      <div class="nav-links">
+        <a href="./index.html">Home</a>
+        <a href="./fixtures.html">Fixtures</a>
+        <a href="./teams.html">Teams</a>
+        <a href="./about.html">About</a>
+        <a class="btn btn-outline" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1 style="margin:0 0 10px 0">Fixtures</h1>
+      <p class="notice">Demo data is bundled with this site. Replace with your own JSON or an API later.</p>
+      <input id="searchFixtures" class="search" placeholder="Search team or competition...">
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="fixturesContainer" class="grid grid-2" style="margin-top:20px"></div>
+  </main>
+
+  <footer>
+    Made with ❤ for the beautiful game. Host on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+  </footer>
+  <script src="./assets/script.js" defer></script>
+</body>
+</html>
